@@ -48,7 +48,7 @@ function Truck(color, weight, avgSpeed, brand, model) {
     this.model = model;
 }
 
-// Метод AssignDriver додає водія до вантажівки
+
 Truck.prototype.AssignDriver = function(driver) {
     this.driver = {
         name: driver.name,
@@ -57,7 +57,7 @@ Truck.prototype.AssignDriver = function(driver) {
     };
 };
 
-// Метод trip перевіряє наявність водія і виводить інформацію
+
 Truck.prototype.trip = function() {
     if (!this.driver) {
         console.log("No driver assigned");
