@@ -305,8 +305,8 @@ console.log("Triangle 3:", triangle3);
 
 // Painter
 function PiMultiplier(multiplier) {
-    return function(number) {
-        return number * multiplier;
+    return function() {
+        return Math.PI * multiplier;
     };
 }
 
